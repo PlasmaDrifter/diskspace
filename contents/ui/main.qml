@@ -246,7 +246,7 @@ PlasmoidItem {
                     clip: true
 
                     delegate: ColumnLayout {
-                        width: parent.width
+                        width: ListView.view ? ListView.view.width : 0
                         spacing: 2
 
                         RowLayout {
@@ -341,7 +341,7 @@ PlasmoidItem {
                     clip: true
 
                     delegate: ColumnLayout {
-                        width: parent.width
+                        width: ListView.view ? ListView.view.width : 0
                         spacing: 4
 
                         RowLayout {
