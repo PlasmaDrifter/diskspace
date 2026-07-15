@@ -2,6 +2,9 @@
 
 A KDE Plasma panel widget that displays disk space usage for one or more mount points, with fully customisable colours.
 
+![diskspace](diskspace.png) 
+![diskspace](desktop-1.png)
+
 ## Features
 
 - Visual usage bars per drive/partition
