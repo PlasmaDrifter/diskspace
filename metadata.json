@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Category": "System Information",
+        "Description": "System Monitor Display with Custom Colors",
+        "EnabledByDefault": true,
+        "Icon": "ksysguardd",
+        "Id": "local.widget.diskspace",
+        "License": "LGPL 2.1+",
+        "Name": "Disk Space",
+        "Version": "1.0"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
+
